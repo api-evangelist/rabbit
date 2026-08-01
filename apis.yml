@@ -1,7 +1,27 @@
 aid: rabbit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rabbit.png
 name: Rabbit
-description: Rabbit is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rabbit Inc. is a consumer technology company building AI-powered devices, best
+  known for the Rabbit R1, a $199 handheld AI companion with industrial design by
+  Teenage Engineering. The R1 runs rabbitOS and centers on a Large Action Model
+  (LAM) that automates tasks across operating systems and applications (DLAM),
+  alongside features like the Magic Camera, voice recording with transcription,
+  and vibe-coded "creations." Rabbit is a portfolio company of a16z. As of this
+  profile, Rabbit is a consumer hardware and device company with no publicly
+  documented developer API, SDK, or developer portal; its public surface is a
+  marketing site, support center, blog, and newsroom.
 url: https://raw.githubusercontent.com/api-evangelist/rabbit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Consumer Hardware
+- AI Devices
+- Large Action Model
+- Voice Assistant
+- Automation
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rabbit-domain-security.yml
+- type: Website
+  url: https://www.rabbit.tech/
+- type: Blog
+  url: https://www.rabbit.tech/blog
+- type: Support
+  url: https://www.rabbit.tech/support
+- type: TermsOfService
+  url: https://www.rabbit.tech/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.rabbit.tech/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/rabbit-hmi
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
